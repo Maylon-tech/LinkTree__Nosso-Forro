@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(28, 27, 27);      
+    color: white;
+    position: relative;
+}
+
+
+.container {
+    min-width: 900px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+
+.container .logo {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 12px white;    
+    margin-top: 30px auto;
+}
+
+
+.container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    margin: 50px auto;
+}
+
+.container h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+.container h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 20px auto;
+}
+
+.container .input-text {
+    display: block;
+    margin: 40px auto;
+    padding: 20px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 23px;
+}
+
+
+.container .input-text:hover {
+    background-color: rgb(133, 213, 238);
+}
+
+
+.container .botao {
+    display: block;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+
+.container .checkbox {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+
+.container .botao:hover {
+    background-color: rgb(133, 213, 238);
+    box-shadow: 0 0 10px white;
+}
+
+
+.footer {
+    background-color: rgb(104, 100, 100);
+    background-attachment: fixed;
+    display: block;
+    height: 9vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer span {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    margin-left: 450px;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.footer li {
+    padding: 10px;
+}
+
+.footer img {
+    width: 30px;
+}
