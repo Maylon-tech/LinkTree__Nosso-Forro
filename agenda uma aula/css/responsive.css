@@ -1,0 +1,39 @@
+@import 'style.css';
+
+@media (min-width: 270px) and (max-width: 420px) {
+   
+    .header {
+        height: 280px;
+    }
+    .header .logo {
+        
+    }
+    .header h1 {
+        font-size: 2rem;
+    }
+    .container {
+        margin: 1rem auto;
+    }
+    .container h2 {
+        font-size: 1.3rem;
+    }
+    .container .input-text {
+        width: 95%;
+        padding: .7rem;
+        font-size: 1rem;
+        margin: 1.2rem auto;
+    }
+
+    .container .botao {
+        width: 90%;
+        padding: .7rem;
+        margin: 1rem auto;
+    }
+    .container .checkbox {
+        font-size: 1rem;
+    }
+    .footer {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: .5rem 0;
+    }
+}
